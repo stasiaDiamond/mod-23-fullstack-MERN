@@ -1,4 +1,5 @@
-FROM node:slim
+# FROM node:slim
+FROM node:16.20.2
 
 # Step 1 - Add container working directory
 WORKDIR /app
